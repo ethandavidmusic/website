@@ -261,10 +261,10 @@ a:focus {
 }
 
 .circular {
-    width: 400px;
-    height: 400px;
-    border-radius: 200px;
-    -webkit-border-radius: 200px;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
     -moz-border-radius: 200px;
     background: url(../img/mebronzeglasses.png) no-repeat center center scroll;
     box-shadow: 0 0 8px rgba(0, 0, 0, .8);
