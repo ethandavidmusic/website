@@ -174,7 +174,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../images/ForestlightsEthanDavid.jpg) no-repeat bottom center scroll;
+    background: url(../img/ForestlightsEthanDavid.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -308,7 +308,7 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../images/Forest.jpg) no-repeat center center scroll;
+    background: url(../imgs/Forest.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
