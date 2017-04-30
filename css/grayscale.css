@@ -502,3 +502,28 @@ body {
   padding: 20px;
   margin-top: 40px;
 }
+
+.downloadbutton{
+    width: 200px;
+    background-color: rgba(197, 171, 145, 1);
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 130%;
+    color: #fff;
+    border: 1px solid #b57a40;
+    margin-bottom: 40px;
+}
+
+.downloadbutton:hover{
+    box-shadow: 3px 3px 5px #888888;
+    background-color: rgba(197, 176, 149, 1);
+}
+
+#sheetmusicimage{
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #888888;
+    margin-bottom: 20px;
+}
