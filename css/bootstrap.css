@@ -6757,4 +6757,10 @@ button.close {
     display: none !important;
   }
 }
+#freedownload{
+  width: 300px;
+  margin: 0 auto;
+  border: 1px solid #fff;
+  border-radius: 3px;
+}
 /*# sourceMappingURL=bootstrap.css.map */
