@@ -458,6 +458,13 @@ body {
     font-size: 120%;
 }
 
+#fdtext2{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 90%;
+    margin-bottom: -10px;
+}
+
 .indicates-required{
     font-size: 10px;
     padding-bottom: 5px;
