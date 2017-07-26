@@ -187,6 +187,39 @@ header nav li a:focus{
 	color: #B7EFD1!important;
 }
 
+
+.downloadhead{
+	margin-top: 20px;
+	display: table-cell;
+}
+
+.downloadhead li{
+	float: left;
+	margin-left: 40px;
+}
+
+.downloadhead li:first-child{
+	margin: 0;
+}
+
+.downloadhead li a{
+	color: #fff;
+	font-family: "open_regular", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+
+	transition: all .2s linear;
+	-o-transition: all .2s linear;
+	-moz-transition: all .2s linear;
+	-webkit-transition: all .2s linear;
+}
+
+.downloadhead li a:hover,
+.downloadhead li a:focus{
+	text-decoration: none;
+	color: #B7EFD1!important;
+}
+
+
 header .social{
 	display: table-cell;
 	margin-top: 15px;
