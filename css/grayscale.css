@@ -15,12 +15,11 @@ body {
     min-height: 100%;
     font-family: GothamLightRegular;
     color: #fff;
-    background: rgba(197, 171, 145, 1); /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(-left, rgba(197, 171, 145, 0.3), rgba(197, 171, 145, 1)); /*Safari 5.1-6*/
-  background: -o-linear-gradient(-right, rgba(197, 171, 145, 0.3), rgba(197, 171, 145, 1)); /*Opera 11.1-12*/
-  background: -moz-linear-gradient(-right, rgba(197, 171, 145, 0.3), rgba(197, 171, 145, 1)); /*Fx 3.6-15*/
-  background: linear-gradient(to right,  rgba(197, 171, 145, 0.3), rgba(197, 171, 145, 1)); /*Standard*/
-
+    background-color: #41c17d;
+    background-image: -moz-linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
+    background-image: -o-linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
+    background-image: -webkit-linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
+    background-image: linear-gradient(bottom, #47ad76 0%, #47ad76 0.27%, #40c27d 99.46%, #40c27d 100%);
 }
 
 html {
@@ -447,6 +446,14 @@ body {
     box-shadow: 3px 3px 5px #888888;
 }
 
+@media (max-width: 620px) {
+
+    #mc_embed_signup{
+        width: 90%;
+    }
+
+}
+
 #freedown{
     font-family: GothamLightRegular;
     text-align: center;
@@ -472,7 +479,7 @@ body {
 }
 
 #mce-FNAME{
-  
+    margin-left: 10px;
     border: 2px solid #888888;
     border-radius: 3px;
     background-color: #f7f7f7;
@@ -501,15 +508,6 @@ body {
     box-shadow: .5px .5px 7px #888888;
 }
 
-#freedownload{
-  width: 70%;
-  margin: 0 auto;
-  border: 1px solid #fff;
-  border-radius: 3px;
-  padding: 20px;
-  margin-top: 40px;
-}
-
 .downloadbutton{
     width: 200px;
     background-color: rgba(197, 171, 145, 1);
@@ -533,6 +531,4 @@ body {
     border-radius: 5px;
     box-shadow: 3px 3px 5px #888888;
     margin-bottom: 20px;
-    left: 30%;
-    position: relative;
 }
